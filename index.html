@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta id="viewport" name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,user-scalable=0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="font/iconfont.css">
+    
+   <script>
+	   alert(window.screen.width)
+    window.onload = window.onresize = function(){		 
+        var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+		//找到标签名为html的第一个
+        var _html = document.getElementsByTagName('html')[0];
+		//如果屏幕宽度大于640 
+		//就用 640/16=40
+		//小于640的时候 不确定 也是尺寸/40
+        view_width>640?_html.style.fontSize = 640 / 16 + 'px':_html.style.fontSize = view_width / 16 + 'px';
+		//最大网页尺寸640 
+		//最大字体（根字体大小） 40
+    }
+</script>
+</style>
+	<title>shouji</title>
+</head>
+<body>
+	<header>
+		<div class="nav">
+			<div class="maiu">
+				<p class="p1 iconfont">&#xe666;</p>
+				<p class="p2">&nbsp;菜单</p>
+			</div>
+			<p class="look">
+				<input type="text" value="&nbsp;搜索关键词">
+				<span class="fangda iconfont">
+				<a href="#">&#xe64d;</a>
+				</span>
+			</p>
+			<div class="right">
+				<p class="ri iconfont">&#xe61a;</p>
+			</div>
+		</div>
+	</header>
+	<div class="ban">
+		<ul class="banner">
+			<li><img src="images/- 医药手机网站_r1_c1.png" alt=""></li>
+			<!-- <li><img src="images/- 医药手机网站_r1_c1.png" alt=""></li> -->
+		</ul>
+	</div>
+	<!-- <ul class="dian">
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul> -->
+		<div class="yao">
+			<ul>
+				<li>
+					<img src="images/zxy.png" alt="">
+					<p>中西药</p>
+				</li>
+				<li>
+					<img src="images/ekyy.png" alt="">
+					<p>儿童用药</p>
+				</li>
+				<li>
+					<img src="images/pfyy.png" alt="">
+					<p>皮肤用药</p>
+				</li>
+				<li>
+					<img src="images/ylqx.png" alt="">
+					<p>医疗器械</p>
+				</li>
+				<li>
+					<img src="images/ysbj.png" alt="">
+					<p>养生保健</p>
+				</li>
+				<li>
+					<img src="images/yxyj.png" alt="">
+					<p>隐形眼镜</p>
+				</li>
+				<li>
+					<img src="images/mrhf.png" alt="">
+					<p>美容护肤</p>
+				</li>
+				<li>
+					<img src="images/cryp.png" alt="">
+					<p>成人用品</p>
+				</li>
+			</ul>
+		</div>
+		<div class="con_one">
+			<p></p>
+			<span>全网最低价</span>
+			<ul>
+				<li><img src="images/yao.png" alt=""></li>
+				<li><img src="images/jiaonang.png"></li>
+			</ul>
+		</div>
+		<div class="gg">
+			<img src="images/newmather.png">
+		</div>
+		<div class="con_two">
+			<p></p>
+			<span>答谢恩师</span>
+			<ul>
+				<li>
+					<h3><img src="images/adm.png"></h3>
+					<h3><img src="images/jhy.png"></h3>
+				</li>
+				<li><img src="images/hongmao.png"></li>
+			</ul>
+		</div>
+		<div class="gg">
+			<img src="images/new818.png">
+		</div>
+		<div class="con_two">
+			<p></p>
+			<span>美美哒</span>
+			<ul>
+				<li>
+					<img src="images/姿美堂.png">
+				</li>
+				<li>
+					<h3><img src="images/adm.png"></h3>
+					<h3><img src="images/jhy.png"></h3>
+				</li>
+			</ul>
+		</div>
+		<!-- <div class="kong">
+			<p></p>
+		</div> -->
+		<div class="caidan">
+			<a href="#"><img src="images/maiu.png"></a>
+		</div>
+		<div class="login">
+			<p><a href="#">登录 |</a><a href="#">&nbsp;注册</a></p>
+			<p class="r"><a href="#" class="return">返回首页</a></p>
+		</div>
+		<div class="l">
+			<img src="images/bb.png">
+		</div>
+			<h2>
+				<a href="#">触屏版</a><em>&nbsp;|&nbsp;</em><a href="#">电脑版</a><em>&nbsp;|&nbsp;</em><a href="#">App版</a>
+				<p class="p1">
+					<a href="#" class="iconfont ">&#xe640;&nbsp;正规药店</a><em>&nbsp;|&nbsp;</em><a href="#" class="iconfont ">&#xe622;&nbsp;提供发票</a><em>&nbsp;|&nbsp;</em><a href="#" class="iconfont ">&#xf0079;&nbsp;7天退货</a>
+				</p>
+				<p class="p2">咨询电话：40-7539-818</p>
+			</h2>
+
+</body>
+</html>
